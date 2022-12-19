@@ -1,14 +1,15 @@
 # React Native blogging app
 
-This is my learning by making app, using Steven Grider's [*The Complete React Native + Hooks Course*](https://www.udemy.com/course/the-complete-react-native-and-redux-course/) on Udemy.
+This is my learning-by-making app, using Steven Grider's [*The Complete React Native + Hooks Course*](https://www.udemy.com/course/the-complete-react-native-and-redux-course/) on Udemy.
 
 What I will be learning through making this app:
 
 1. Use React Navigation.
-2. Use React Native to share state between screens.
+2. Use React Context to share state between screens.
 3. Use React style sheets for styling.
-4. Understand CRUD (Create, Read, Update, Delete/Destroy).
-5. Use basic, functional React Native mobile UX for an app.
+4. Use FlatList instead of mapping over an array in order to render a list. This is the React Native way of doing things.
+5. Understand CRUD (Create, Read, Update, Delete/Destroy).
+6. Use basic, functional React Native mobile UX for an app.
 
 This blog app uses React context to share state between screens. Navigation is handled by React Navigation.
 
