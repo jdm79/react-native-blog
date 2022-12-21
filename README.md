@@ -12,11 +12,11 @@ What I will be learning through making this app:
 6. Use basic, functional React Native mobile UX for an app.
 
 
-1. React Navigation.
+# React Navigation.
    
-2. This blog app uses React context to communicate state between screens. State is still handled by useReducer (but could be done by Redux if we wanted to go down that path). Steven Grider basically replicates Redux, to a certain extent with the createDataContext.js helper function. 
+# React Context
+
+This blog app uses React context to communicate state between screens. State changes are still handled by useReducer (but could be done by Redux if we wanted to go down that path). Steven Grider basically replicates Redux to a certain extent, with the createDataContext.js helper function. 
 
 Using React Context means you don't have to pass state down through children like some clunky cascade, rather you can import the parent Context Provider component in any child file and use the state there without passing it down through nested children (as with props). More setup but subsequently easier to use.
-
-3. 
 
