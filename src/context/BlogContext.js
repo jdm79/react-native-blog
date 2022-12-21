@@ -16,6 +16,8 @@ const addBlogPost = dispatch => {
     }
 };
 
+// updating a context
+
 export const { Context, Provider } = createDataContext(
     blogReducer, 
     { addBlogPost }, 
